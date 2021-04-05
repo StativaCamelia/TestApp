@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="name"
+        android:title="Name"
+        android:id="@+id/name" />
+    <CheckBoxPreference
+        android:key="login"
+        android:checked="false"
+        android:title="Login" />
+    <ListPreference
+        android:key="animals"
+        android:title="Animals"
+        android:entries="@array/animal_list"
+        android:entryValues="@array/animal_list_result"
+        >
+
+    </ListPreference>
+</PreferenceScreen>

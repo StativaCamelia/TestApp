@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+        <string-array name="animal_list">
+            <item>Red</item>
+            <item>Green</item>
+            <item>Blue</item>
+            <item>White</item>
+        </string-array>
+        <string-array name="animal_list_result">
+            <item>0</item>
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+        </string-array>
+</resources>
